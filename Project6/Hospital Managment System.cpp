@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// ---------------- FUNCTION PROTOTYPES ----------------
+// ---------------- FUNCTION PROTOTYPES ---------------
 void displayMenu();
 void addPatient(int*& id, int*& age, char*& gender, char**& name, char**& disease, int*& floor, int*& room, int& size, int& capacity);
 void autoGrow(int*& id, int*& age, char*& gender, char**& name, char**& disease, int*& floor, int*& room, int& capacity, int size);
